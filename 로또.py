@@ -11,7 +11,7 @@ class Lotto:
 
     def play(self):
         try:
-            print("로또 번호 생성:", self.generate_numbers())
+            print(self.generate_numbers())
         except Exception as e:
             print("오류 발생:", e)
 
