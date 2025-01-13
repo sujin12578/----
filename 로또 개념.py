@@ -21,5 +21,3 @@ random.choice([True, False])
 lotto = LottoNum()
 
 print(lotto.get_lotto_nums()) # [1,2,3,4,5,6]
-
-# 추가
